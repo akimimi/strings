@@ -1,0 +1,25 @@
+{
+    "name": "akimimi/strings",
+    "description": "Akimimi strings library",
+    "type": "library",
+    "require": {
+        "php": ">=7.3.0",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "ext-yaml": "^2.2",
+        "phpunit/phpunit": "9.*"
+    },
+    "autoload":{
+      "psr-4": {
+        "Akimimi\\Strings\\": "src/"
+      }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Murray Wang",
+            "email": "rui@mimixiche.com"
+        }
+    ]
+}
