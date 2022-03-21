@@ -38,8 +38,14 @@ After installation by composer, you can declare use for PlatUtil class.
 use Akimimi\Strings\PlateUtil;
 
 $plate1 = "京Q7BP06";
-$plate1 = "晋7BP0A6";
+$plate2 = "晋7BP0A6";
 
 $distance = PlateUtil::Distance($plate1, $plate2, 0.5); // return 2.5
 ```
 
+## Uninstall
+
+With composer, we can remove library with composer CLI.
+```bash
+composer remove akimimi/strings
+```
