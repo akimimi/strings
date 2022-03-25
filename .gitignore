@@ -32,3 +32,5 @@ composer.lock
 /app/Config/core.php
 /app/Config/database.php
 /vendors/*
+/coverage
+.phpunit.cache/
